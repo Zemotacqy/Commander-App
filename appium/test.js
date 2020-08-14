@@ -2,9 +2,11 @@ var wd = require('wd');
 var assert = require('assert');
 var asserters = wd.asserters;
 
-var username = '<BSTACK_USERNAME>'
-var access_key = '<BSTACK_ACCESS_KEY>'
-var app_url = 'bs://<APP_HASHED_ID>'
+var username = 'saipaluri1'
+var access_key = 'q1nLyRyjXvhdcaE5Azik'
+//var app_url = 'bs://<APP_HASHED_ID>'
+var app_url = 'https://test.salesforce.com'
+
 
 desiredCaps = {
   'browserstack.user' : username,
